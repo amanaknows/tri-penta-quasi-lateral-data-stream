@@ -1,6 +1,5 @@
-ledge proofs (zkSNARKs)
-Google IAM integration
-Finalized Code
+// python tri_penta_communication.py
+
 from flask import Flask, request, jsonify
 import os
 from cryptography.fernet import Fernet
