@@ -69,7 +69,7 @@ Usage
 The project provides the following functionality:
 
 Communication Handling
-/state//transmission/: Handles communication based on the state and transmission type.
+/state/<int:state>/transmission/<int:transmission>: Handles communication based on the state and transmission type.
 Data Encryption and Checksum Verification
 encrypt_data(data): Encrypts data using Fernet symmetric encryption.
 decrypt_data(encrypted_data): Decrypts encrypted data.
@@ -130,6 +130,15 @@ This project is licensed under the MIT License. See LICENSE for details.
 
 Contributing
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+
+Acknowledgments
+The project was inspired by the following projects:
+
+Blockchain-based Identity Verification System
+Decentralized Social Media Platform
+Artificial Intelligence Model for Collaboration and Content Suggestions
+Contact
+For questions, feedback, or support, please contact Delilah, blackbox.ai, gpt, and/or amanaknows.
 
 Acknowledgments
 The project was inspired by the following projects:
