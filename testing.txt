@@ -1,3 +1,5 @@
+// to run tests: python test_tri_penta_communication.py
+
 curl -X POST -H "Content-Type: application/json" -d '{"state": 1, "transmission": 1, "data": "Hello, World!"}' http://localhost:5000/send_data
 
 Here are some safe testing suggestions to ensure that the tri-penta-quasi-lateral datastream for AI communication is functioning correctly and securely:
